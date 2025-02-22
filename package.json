@@ -1,0 +1,72 @@
+{
+  "name": "portfolio2.0-api",
+  "version": "1.0.0",
+  "description": "ExpressJS and TypeScript Starter Project",
+  "main": "./dist/server.js",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register ./src/server.ts",
+    "start": "yarn build && node ./dist/server.js",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
+    "format": "prettier ./src --write",
+    "format:check": "prettier ./src --check",
+    "build": "tsc && tsc-alias",
+    "generate-module": "ts-node ./cli/index.ts generate-module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noyonalways/portfolio2.0-api.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "typescript"
+  ],
+  "author": "Noyon Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noyonalways/portfolio2.0-api/issues"
+  },
+  "homepage": "https://github.com/noyonalways/portfolio2.0-api#readme",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/morgan": "^1.9.9",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^20.12.12",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
+    "chalk": "4.0.0",
+    "commander": "^12.1.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "fs-extra": "^11.2.0",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsc": "^2.0.4",
+    "tsc-alias": "^1.8.10",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "http-status": "1.7.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "slugify": "^1.6.6",
+    "zod": "^3.23.8"
+  }
+}

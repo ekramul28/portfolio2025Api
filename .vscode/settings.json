@@ -1,0 +1,17 @@
+{
+  "workbench.colorTheme": "Learn with Sumit - Professional",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always"
+  },
+  "files.autoSave": "off",
+  "cSpell.words": [
+    "fieldname",
+    "Noyon",
+    "populatable",
+    "Rahman"
+  ],
+  "prettier.prettierPath": "./node_modules/prettier"
+}
